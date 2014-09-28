@@ -21,4 +21,10 @@ Dar permisos de ejecucion a manage.py
 
 $ cd alfilazul && chmod +x manage.py
 
-$ ./manage.py
+$ ./manage.py runserver
+
+
+Script 3
+
+$ ./manage.py startapp ajedrecistas
+

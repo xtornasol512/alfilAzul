@@ -3,3 +3,4 @@
 temp/
 front-end/temp/
 venv/
+*.sqlite3
