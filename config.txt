@@ -1,0 +1,24 @@
+Script 1
+
+$ virtualenv venv/dj1.7
+
+$ source venv/dj1.7/bin/activate
+
+(dj1.7)$ pip install requirements.txt (instalamos paquetes)
+
+
+MOdo desarrollo 
+(dj1.7) $ pip freeze > requirements2.txt
+
+
+Script 2 
+
+Crear proyecto
+
+$ django-admin.py startproject alfilazul
+
+Dar permisos de ejecucion a manage.py
+
+$ cd alfilazul && chmod +x manage.py
+
+$ ./manage.py
